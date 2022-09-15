@@ -191,6 +191,9 @@ button {
   .card {
     flex-direction: column;
   }
+  .blog {
+    font-size: small;
+  }
 }
 /* Three column history */
 @media only screen and (min-width: 700px) {
@@ -213,6 +216,7 @@ span {
   flex-direction: column;
   height: fit-content;
   width: 65%;
+  max-height: 100vh;
 }
 .answers {
   border: 2px #9dffad solid;
