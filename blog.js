@@ -7,7 +7,7 @@ blog.addEventListener("click", function () {
   <div id="cross"><i class="fa-solid fa-xmark" onclick='closeOverlay()'></i></div>
   <div class='allQues blog'>
     <div onclick='closeOpenAnswer(1)'>
-        <span>Difference between Local storage and Session storage </span><i class="fa-solid fa-angle-down" ></i>
+        <span class='quesBlog'>Difference between Local storage and Session storage </span><i class="fa-solid fa-angle-down" ></i>
     </div>
     <div class="answers" id='answer1'>
     SessionStorage is similar to localStorage. The difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. 
@@ -15,7 +15,7 @@ blog.addEventListener("click", function () {
 </div>
 <div class='allQues blog' >
     <div onclick='closeOpenAnswer(2)'>
-        <span>Difference between Local storage and Session storage </span><i class="fa-solid fa-angle-down" ></i>
+        <span class='quesBlog'>Global scope and Block Scope comparison</span><i class="fa-solid fa-angle-down" ></i>
     </div>
     <div class="answers" id='answer2'>
     The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
@@ -24,7 +24,7 @@ blog.addEventListener("click", function () {
 </div>
 <div class='allQues blog'>
     <div onclick='closeOpenAnswer(3)'>
-        <span>How Javascript event loop works? </span><i class="fa-solid fa-angle-down" ></i>
+        <span class='quesBlog'>How Javascript event loop works? </span><i class="fa-solid fa-angle-down" ></i>
     </div>
     <div class="answers" id='answer3'>
     The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. 
@@ -32,7 +32,7 @@ blog.addEventListener("click", function () {
 </div>
 <div class='allQues blog'>
     <div onclick='closeOpenAnswer(4)'>
-        <span>Few ways of getting undefined result in Javascript? </span><i class="fa-solid fa-angle-down" ></i>
+        <span class='quesBlog'>Few ways of getting undefined result in Javascript? </span><i class="fa-solid fa-angle-down" ></i>
     </div>
     <div class="answers" id='answer4'>
     <ul>
